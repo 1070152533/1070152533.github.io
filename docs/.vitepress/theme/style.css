@@ -1,0 +1,57 @@
+.VPDoc {
+  max-width: 800px;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-item {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.post-item:first-child {
+  padding-top: 0;
+}
+
+.post-title {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.post-title a {
+  text-decoration: none;
+}
+
+.post-title a:hover {
+  text-decoration: underline;
+}
+
+.post-date {
+  font-size: 0.85em;
+  color: var(--vp-c-text-2);
+  margin-bottom: 8px;
+}
+
+.post-excerpt {
+  font-size: 0.95em;
+  color: var(--vp-c-text-2);
+  line-height: 1.6;
+}
+
+.home-header {
+  margin-bottom: 32px;
+}
+
+.home-header h1 {
+  font-size: 2em;
+  margin-bottom: 8px;
+}
+
+.home-header p {
+  font-size: 1.1em;
+  color: var(--vp-c-text-2);
+}
